@@ -11,7 +11,7 @@ public class A4Q3 {
         System.out.print("Enter the Right Range : ");
         r = obj.nextInt();
 
-        for(int i = l,k = 1;i <= r;i++,k++) {
+        for(int i = l + 1,k = 1;i <= r;i++,k++) {
             System.out.print(i + " ");
             if(k == 5) {
                 k = 0;
@@ -19,5 +19,6 @@ public class A4Q3 {
             }
         }
 
+        obj.close();
     }
 }
