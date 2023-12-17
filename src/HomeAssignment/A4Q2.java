@@ -1,4 +1,4 @@
-package HomeAssignmrent;
+package HomeAssignment;
 
 import java.util.Scanner;
 

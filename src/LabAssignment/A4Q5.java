@@ -25,5 +25,6 @@ public class A4Q5 {
         } else {
             System.out.println(N + " is not a perfect number.");
         }
+        obj.close();
     }
 }
