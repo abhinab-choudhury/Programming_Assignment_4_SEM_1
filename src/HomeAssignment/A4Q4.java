@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class A4Q4 {
   public static void main(String[] args) {
     int N, result = 0;
-    ;
-
+  
     Scanner obj = new Scanner(System.in);
 
     System.out.print("N : ");
@@ -16,7 +15,7 @@ public class A4Q4 {
     for (int i = 1; i <= N; i++) {
       if (i % 2 == 0) {
         result += i;
-        if ((i + 1) > N) {
+        if ((i + 2) > N) {
           System.out.print(i + " = ");
         } else {
           System.out.print(i + " + ");

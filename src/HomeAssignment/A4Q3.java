@@ -11,12 +11,12 @@ public class A4Q3 {
         System.out.print("Enter the Right Range : ");
         r = obj.nextInt();
 
-        for(int i = l + 1,k = 1;i <= r;i++,k++) {
-            System.out.print(i + " ");
-            if(k == 5) {
-                k = 0;
-                System.out.println();
+        for(int i = l + 1;i <= r;i++) {
+            if((i) % 5 == 0 || (i) % 10 == 0) {
+                System.out.println(i);
+                continue;
             }
+            System.out.print(i + " ");
         }
 
         obj.close();

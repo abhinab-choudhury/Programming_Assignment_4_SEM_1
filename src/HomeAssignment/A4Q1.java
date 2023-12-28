@@ -20,7 +20,7 @@ public class A4Q1 {
 
         System.out.println("The sum of the squares of the first " + t + " natural numbers is: " + sq_sum);
         System.out.println("The square of the sum of the first " + t + " natural numbers is: " + sum);
-        System.out.println("Hence the difference between the sum of the squares of the first " + N + " natural numbers and the square of the sum is " + sum + " - " + sq_sum + " = " + (sum - sq_sum));
+        System.out.println("Hence the difference between the sum of the squares of the first " + t + " natural numbers and the square of the sum is " + sum + " - " + sq_sum + " = " + (sum - sq_sum));
 
         obj.close();
     }
